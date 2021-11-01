@@ -19,16 +19,16 @@ def domain_rooms():
         code=uuid.uuid4(),
         size=405,
         price=66,
-        longitude=-0.18228006,
-        latitude= 51.74640997,
+        longitude=0.18228006,
+        latitude=51.74640997,
     )
 
     room_3 = Room(
         code=uuid.uuid4(),
         size=56,
         price=60,
-        longitude=-0.27891577,
-        latitude= 51.45994069,
+        longitude=0.27891577,
+        latitude=51.45994069,
     )
 
     room_4 = Room(
