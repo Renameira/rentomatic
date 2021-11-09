@@ -2,7 +2,6 @@ import json
 from unittest import mock
 
 from rentomatic.domain.room import Room
-
 room_dict = {
     "code": "3251a5bd-86be-428d-8ae9-6e51a8048c33",
     "size": 200,
