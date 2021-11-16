@@ -9,7 +9,7 @@ class Room(Base):
 
     id = Column(Integer, primary_key=True)
 
-    code = Column(String(36), nullable=False)
+    code = Column(String(50), nullable=False)
     size = Column(Integer)
     price = Column(Integer)
     longitude = Column(Float)

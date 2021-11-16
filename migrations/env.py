@@ -7,9 +7,6 @@ from sqlalchemy import pool
 
 from alembic import context
 
-from rentomatic.repository.postgres_objects import Base
-
-
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config
@@ -37,6 +34,8 @@ fileConfig(config.config_file_name)
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
 # target_metadata = None
+
+from rentomatic.repository.postgres_objects import Base
 
 target_metadata = Base.metadata
 
